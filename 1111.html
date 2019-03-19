@@ -1,0 +1,29 @@
+<html>
+  <head>
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+ <script type="text/javascript">
+$(document).ready(function(){
+$('.myblock').hover(
+function(){$(this).animate({'width':'400'},2500);},
+function(){$(this).stop()});             
+ });
+ </script>
+<style>
+.myblock{
+width:40px;
+height:300px;
+border:2px solid green;
+cursor: pointer;
+}
+ 
+</style>    
+  </head>
+  <body>
+  Наведи на картинку
+<div class="myblock">
+	<img src="https://3d-galleru.ru/cards/1/80/om1xuyklpuyzxem/serdechko-so-shtangoj.gif"/>
+</div>     
+  </body>
+</html>
